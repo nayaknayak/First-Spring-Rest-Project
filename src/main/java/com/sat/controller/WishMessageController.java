@@ -27,7 +27,7 @@ public class WishMessageController {
 		}else if(hour<20){
 			msg="Good Night";
 		}
-		ResponseEntity<String> entity=new ResponseEntity<String>(msg,HttpStatus.OK);
+		ResponseEntity<String> entity=new ResponseEntity<String>(msg+"  Satya",HttpStatus.OK);
 		return entity;
 	}
 
